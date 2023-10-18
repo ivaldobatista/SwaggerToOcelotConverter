@@ -40,14 +40,11 @@ Este projeto é uma ferramenta de linha de comando feita em .NET 7 que converte 
 5. ***Configuração ***
 Você pode ajustar as configurações do projeto no arquivo appsettings.json.
 
-json
-Copy code
-{
-  "OcelotConfig": {
-    "Host": "seu_host",
-    "Port": sua_porta,
-    "Region": "sua_regiao"
-  }
-}
-
-
+```json
+	{
+	  "OcelotConfig": {
+		"Host": "seu_host",
+		"Port": sua_porta,
+		"Region": "sua_regiao"
+	  }
+	}
