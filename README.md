@@ -30,17 +30,16 @@ Este projeto é uma ferramenta de linha de comando feita em .NET 7 que converte 
 	cd sua_pasta_onde_salvou
 
 3. **Compile o projeto**
-```bash
+
 	dotnet build
 
 4. **Execute o projeto**
-```bash
+
 	dotnet run
 
 5. ***Configuração ***
 Você pode ajustar as configurações do projeto no arquivo appsettings.json.
 
-```json
 	{
 	  "OcelotConfig": {
 		"Host": "seu_host",
