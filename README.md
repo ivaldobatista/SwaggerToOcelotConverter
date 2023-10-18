@@ -30,17 +30,25 @@ Este projeto é uma ferramenta de linha de comando feita em .NET 7 que converte 
 	cd sua_pasta_onde_salvou
 ```
 
-3. **Compile o projeto**
+3. **Crie o arquivo appsettings**
+
+ Para rodar o projeto localmente, é necessário criar um arquivo `appsettings.json` na raiz do projeto. Você pode usar o arquivo `appsettings.example.json` como um ponto de partida. Copie o conteúdo de `appsettings.example.json` para um novo arquivo chamado `appsettings.json` e substitua os valores de acordo com sua configuração.
+
+```bash
+cp appsettings.example.json appsettings.json
+```
+
+4. **Compile o projeto**
 ```bash
 	dotnet build
 ```
 
-4. **Execute o projeto**
+5. **Execute o projeto**
 ```bash
 	dotnet run
 ```
 
-5. ***Configuração ***
+6. ***Configuração ***
 Você pode ajustar as configurações do projeto no arquivo appsettings.json.
 ```json
 	{
