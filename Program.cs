@@ -39,8 +39,6 @@ namespace SwaggerToOcelotConverter
 
 			File.WriteAllText(ocelotFilePath, ocelotObject.ToString());
 
-			Console.WriteLine("Conversão concluída.");
-
 		}
 
 		static JObject ConvertSwaggerToOcelot(JObject swaggerObject)
@@ -85,7 +83,7 @@ namespace SwaggerToOcelotConverter
 					string methodKey = method.Name.ToUpper(); // GET, POST, etc
 					JObject methodValue = (JObject)method.Value; //se precisar do payload / valor.. 
 
-					string upstreamPath = $"/{region}/{version}{pathKey}";
+					string upstreamPath = $"/{version}{pathKey.Replace("/api","")}";
 					string downstreamPath = $"{pathKey}";
 
 					JObject ocelotEntry = CreateOcelotEntry(methodKey, upstreamPath, downstreamPath, host, int.Parse(port), region);

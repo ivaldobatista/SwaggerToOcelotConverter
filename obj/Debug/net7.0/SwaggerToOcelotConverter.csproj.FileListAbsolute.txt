@@ -24,3 +24,4 @@ D:\Projetos\Ivatec\SwaggerToOcelotConverter\obj\Debug\net7.0\SwaggerToOcelotConv
 D:\Projetos\Ivatec\SwaggerToOcelotConverter\obj\Debug\net7.0\SwaggerToOcelotConverter.genruntimeconfig.cache
 D:\Projetos\Ivatec\SwaggerToOcelotConverter\obj\Debug\net7.0\ref\SwaggerToOcelotConverter.dll
 D:\Projetos\Ivatec\SwaggerToOcelotConverter\bin\Debug\net7.0\appsettings.json
+D:\Projetos\Ivatec\SwaggerToOcelotConverter\bin\Debug\net7.0\appsettings.example.json
